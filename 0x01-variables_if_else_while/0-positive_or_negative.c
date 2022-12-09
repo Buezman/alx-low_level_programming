@@ -2,7 +2,9 @@
 #include<time.h>
 #include<stdio.h>
 /**
- * main - program outputs is zero, is positive or is negative based on the value of n
+ * main - program outputs is zero for n == 0
+ * 	  is positive for n > 0
+ * 	  or is negative for n < 0
  * Return: 0 (Success)
  *
  */
