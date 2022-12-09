@@ -2,8 +2,8 @@
 #include<time.h>
 #include<stdio.h>
 /**
- * main - program entry point
- * Result: 0 (Success)
+ * main - program outputs is zero, is positive or is negative based on the value of n
+ * Return: 0 (Success)
  *
  */
 int main(void)
