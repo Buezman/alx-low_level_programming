@@ -9,15 +9,16 @@ int main(void)
 {
 	int n;
 
-	for (n = 0; n < 10; n++)
+	for (n = 0; n < 16; n++)
 	{
-		putchar(n + '0');
-	}
-	char c;
-
-	for (c = 'A'; c < 'G'; c++)
-	{
-		putchar(c);
+		if (n < 10)
+		{
+			putchar(n + '0');
+		}
+		else
+		{
+			putchar(n + 55);
+		}
 	}
 	putchar('\n');
 	return (0);
