@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int i , j;
+	int i, j;
 
 	i = 0;
 	while (i < 10)
@@ -18,9 +18,14 @@ int main(void)
 		{
 			putchar(i + '0');
 			putchar(i + '0');
-			putchar(' ');
-			putchar(j + '0');
-			putchar(j + 1 + '0');	
+			if(i < 9)
+			{
+				putchar(' ');
+				putchar(j + '0');
+				putchar(j + 1 + '0');
+				putchar(',');
+				putchar(' ');
+			}	
 		}
 	}
 	putchar('\n');
