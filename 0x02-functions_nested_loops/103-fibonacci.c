@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 /**
  * main - prints sum of even valued terms in a fibonacci sequence
  *
@@ -9,12 +10,10 @@ int main(void)
 {
 	long int a, b, c, sum;
 
-	bool isLess = true;
-
 	a = 1;
 	b = 2;
 	sum = 2;
-	while (isLess)
+	while (true)
 	{
 		c = a + b;
 		a = b;
