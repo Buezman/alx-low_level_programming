@@ -15,14 +15,14 @@ void jack_bauer(void)
 		m = 0;
 		while (m < 10)
 		{
+			if (h == 2 && m == 4)
+				break;
 			n = 0;
-			while (n < 7)
+			while (n < 6)
 			{
 				k = 0;
 				while (k < 10)
 				{
-					if (h >= 2 && n >= 4)
-						break;
 					_putchar(h + 48);
 					_putchar(m + 48);
 					_putchar(58);
