@@ -7,22 +7,21 @@
  */
 int main(void)
 {
-	long int a, b, c, n;
+	long unsigned int a, b, c, n;
 
 	a = 1;
 	b = 2;
 	n = 3;
-	printf("%ld", a);
-	printf(", %ld", b);
+	printf("%lu", a);
+	printf(", %lu", b);
 	while (n <= 98)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf(", %ld", c);
+		printf(", %lu", c);
 		n++;
 	}
 	putchar('\n');
 	return (0);
-	
 }
