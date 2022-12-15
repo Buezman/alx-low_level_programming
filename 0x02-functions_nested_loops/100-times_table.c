@@ -18,11 +18,11 @@ void print_times_table(int n)
 			for (j = 0; j <= n; j++)
 			{
 				x = i * j;
-				if (i > 0 && x < 100)
+				if (j > 0 && x < 100)
 				{
 					_putchar(' ');
 				}
-				if (i > 0 && x < 10)
+				if (j > 0 && x < 10)
 				{
 					_putchar(' ');
 				}
