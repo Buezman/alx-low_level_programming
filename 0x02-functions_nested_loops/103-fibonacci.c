@@ -9,12 +9,11 @@ int main(void)
 {
 	long int a, b, c, sum;
 
-	bool isLess;
+	bool isLess = true;
 
 	a = 1;
 	b = 2;
 	sum = 2;
-	isLess;
 	while (isLess)
 	{
 		c = a + b;
