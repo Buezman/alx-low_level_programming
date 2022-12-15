@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * print_times_table - prints times table of a number
  *
  * @n: positive integer
