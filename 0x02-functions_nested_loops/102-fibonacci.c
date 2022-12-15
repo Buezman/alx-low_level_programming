@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-	long long a, b, c, n;
+	long long int a, b, c, n;
 
 	a = 1;
 	b = 2;
 	n = 3;
-	printf("%lu", a);
-	printf(", %lu", b);
+	printf("%lld", a);
+	printf(", %lld", b);
 	while (n <= 50)
 	{
 		c = a + b;
-		printf(", %lu", c);
+		printf(", %lld", c);
 		a = b;
 		b = c;
 		n++;
