@@ -9,10 +9,13 @@ int main(void)
 {
 	long int a, b, c, sum;
 
+	bool isLess;
+
 	a = 1;
 	b = 2;
 	sum = 2;
-	while (true)
+	isLess;
+	while (isLess)
 	{
 		c = a + b;
 		a = b;
