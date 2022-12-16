@@ -18,8 +18,8 @@ void print_diagonal(int n)
 			_putchar(' ');
 			j--;
 		}
-		_putchar('\\');
-		if (i < (n -1))
+		_putchar(92);
+		if (i < (n - 1))
 		{
 			_putchar('\n');
 		}
