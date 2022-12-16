@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * print_square - prints a square of side
- * @size: inteiger
+ * @size: integer
  * Return: 0 (success)
  */
-
 void print_square(int size)
 {
 	int i, j;
