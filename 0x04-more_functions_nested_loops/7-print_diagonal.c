@@ -10,7 +10,7 @@ void print_diagonal(int n)
 {
 	int i, j;
 
-	j = 0;
+	j = 1;
 	while (n > 0)
 	{
 		i = 0;
@@ -24,5 +24,5 @@ void print_diagonal(int n)
 		j++;
 		n--;
 	}
-	_putchar('\n');
+	_putchar('\n')i;
 }
