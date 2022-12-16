@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_square - prints a square of side n using #
- * @size: intger
+ * print_square - prints a square of side
+ * @size: inteiger
  * Return: 0 (success)
  */
 
@@ -14,7 +14,7 @@ void print_square(int size)
 	{
 		for (j = 0; j < size; j++)
 		{
-			_putchar('35');
+			_putchar(35);
 		}
 		if (i < (size - 1))
 		{
