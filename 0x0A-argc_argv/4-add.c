@@ -4,7 +4,7 @@
 /**
  * main - add positive integers
  * @argc: number of arguments
- * @argv: array of arguments
+ * @argv: array of argumentsi
  * Return: 0 on success, 1 on Error
  */
 int main(int argc, char *argv[])
@@ -20,8 +20,8 @@ int main(int argc, char *argv[])
 				printf("Error\n");
 				return (1);
 			}
-			sum += atoi(argv[i]);
 		}
+		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
