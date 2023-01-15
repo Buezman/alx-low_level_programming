@@ -1,0 +1,1 @@
+## Dynamic allocation in c
