@@ -3,9 +3,9 @@
 
 #include <stdarg.h>
 /**
- *
- *
- *
+ * struct printer - struct defining a rinter
+ * @symbol: represents a data type
+ * @print: pointer to print function
  */
 typedef struct printer
 {
