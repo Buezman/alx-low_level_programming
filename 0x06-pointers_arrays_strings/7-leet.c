@@ -11,7 +11,7 @@ char *leet(char *str)
 
 	char strArr[5] = {"a", "e", "o", "t", "l};
 
-	char intArr[5] = {4, 3, 0, 7, 1};
+	int intArr[5] = {4, 3, 0, 7, 1};
 
 	while (str[i])
 	{
