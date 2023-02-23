@@ -3,7 +3,7 @@
 
 #include <stdlib.h>
 /**
- * struct lists_s - singly linked list data structure
+ * struct list_s - singly linked list data structure
  * @str: malloced string
  * @len: length of string str
  * @next: points to nextmode
