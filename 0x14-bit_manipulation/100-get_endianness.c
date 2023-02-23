@@ -5,7 +5,7 @@
  * Return: if big-endian 1, otherwise 0
  *
  */
-int grt_endianness(void)
+int get_endianness(void)
 {
 	int num = 1;
 	char *e = (char *)&num;
